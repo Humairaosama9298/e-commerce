@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
+Image
 
 export default function EditorsPick() {
   return (
@@ -9,7 +11,7 @@ export default function EditorsPick() {
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="relative group">
-          <img
+          <Image
             src="/editorspic/men.png"
             alt="Men"
             className="w-full h-auto rounded-md"
@@ -19,7 +21,7 @@ export default function EditorsPick() {
           </div>
         </div>
         <div className="relative group">
-          <img
+          <Image
             src="/editorspic/women.png"
             alt="Women"
             className="w-full h-auto rounded-md"
@@ -29,7 +31,7 @@ export default function EditorsPick() {
           </div>
         </div>
         <div className="relative group">
-          <img
+          <Image
             src="/editorspic/accessories.png"
             alt="Accessories"
             className="w-full h-auto rounded-md"
@@ -39,7 +41,7 @@ export default function EditorsPick() {
           </div>
         </div>
         <div className="relative group">
-          <img
+          <Image
             src="/editorspic/kid.png"
             alt="Kids"
             className="w-full h-auto rounded-md"
